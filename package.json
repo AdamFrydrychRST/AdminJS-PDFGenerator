@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@adminjs/express": "^5.1.0",
+    "@adminjs/import-export": "^2.0.2",
+    "@adminjs/sql": "^1.0.0",
+    "adminjs": "^6.8.2",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.3",
+    "jspdf": "^2.5.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "*"
+  },
+  "name": "charts-video",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "author": "AF",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node index.ts"
+  }
+}
